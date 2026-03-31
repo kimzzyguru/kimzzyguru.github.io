@@ -625,3 +625,11 @@ body, .l-main {
     color: #fff;
     transform: translateY(-5px) scale(1.1);
 }
+.whatsapp-btn {
+    background: #25D366;
+    margin-left: 10px;
+}
+
+.whatsapp-btn:hover {
+    background: #1ebe5d;
+}
