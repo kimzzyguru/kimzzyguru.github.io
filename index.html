@@ -41,7 +41,11 @@
                 <div class="home__data">
                     <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Valentine</span><br> Web Designer</h1>
 
-                    <a href="#" class="button">Contact</a>
+                    <a href="#contact" class="button">Contact Me</a>
+
+                    <a href="https://wa.me/254110096424" class="button whatsapp-btn" target="_blank">
+                      <i class='bx bxl-whatsapp' ></i> WhatsApp
+                    </a>
                 </div>
 
                 <div class="home__social">
@@ -157,7 +161,7 @@ For me, it’s not just about writing code—it’s about creating something mea
                         <img src="assets/img/robot.png" alt="">
                         <div class="work__overlay">
                             <h3>Robot Project</h3>
-                            <p>Arduino-based automation</p>
+                            <p>Arduino-based auto</p> 
                          </div>
                     </a>
                     <a href="" class="work__img">
@@ -192,18 +196,28 @@ For me, it’s not just about writing code—it’s about creating something mea
             </section>
 
             <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
+    <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
 
-                <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Send" class="contact__button button">
-                    </form>
-                </div>
-            </section>
+        <div class="contact__container bd-grid">
+            <form action="https://formspree.io/f/mlgonpvv" method="POST" class="contact__form">
+            
+                <input type="text" name="name" placeholder="Name" class="contact__input" required>
+
+                <input type="email" name="email" placeholder="Email" class="contact__input" required>
+
+                <textarea name="message" rows="10" class="contact__input" placeholder="Your message..." required></textarea>
+
+                <!-- Optional subject -->
+             <input type="hidden" name="_subject" value="New message from your portfolio!">
+
+             <button type="submit" class="contact__button button">Send Message</button>
+
+            </form>
+
+  
+    </div>
+</section>
         </main>
 
         <!--===== FOOTER =====-->
@@ -257,5 +271,6 @@ function type() {
 
 type();
 </script>
-    </body>
+
+</body>
 </html>
