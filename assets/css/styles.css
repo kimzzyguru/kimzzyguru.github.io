@@ -625,6 +625,11 @@ body, .l-main {
     color: #fff;
     transform: translateY(-5px) scale(1.1);
 }
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
 .whatsapp-btn {
     background: #25D366;
     margin-left: 10px;
@@ -632,4 +637,11 @@ body, .l-main {
 
 .whatsapp-btn:hover {
     background: #1ebe5d;
+}
+
+.profile-img {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    object-fit: cover;
 }
